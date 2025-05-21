@@ -55,7 +55,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 sns.histplot(X_train['feature1'], kde=True)
 ```
-📸 <img src="/img/09.png"  width="700"/>
+ <img src="/img/09.png"  width="700"/>
 
 ---
 
@@ -114,7 +114,7 @@ def triangular(x, a, b, c):
   * ⚙️ Efficiency (number of models evaluated)
   * 🎯 Final Accuracy
 
-📸 <img src="/img/11.png"  width="700"/>
+ <img src="/img/11.png"  width="700"/>
 
 ---
 
@@ -127,7 +127,7 @@ from sklearn.tree import plot_tree
 plot_tree(clf, feature_names=X.columns, class_names=['Class 0', 'Class 1'])
 ```
 
-📸 <img src="/img/12.png"  width="700"/>
+ <img src="/img/12.png"  width="700"/>
 
 ---
 
@@ -144,7 +144,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 print(classification_report(y_test, y_pred))
 ```
 
-📸 <img src="/img/13.png"  width="700"/>    
+ <img src="/img/13.png"  width="700"/>    
 
 ---
 
@@ -203,8 +203,4 @@ pip install -r requirements.txt
 <img src="/img/07.png"  width="700"/>  
 <img src="/img/08.png"  width="700"/>  
 <img src="/img/10.png"  width="700"/>  
-<<<<<<< HEAD
 <img src="/img/14.png"  width="700"/>  
-=======
-<img src="/img/14.png"  width="700"/>  
->>>>>>> 8cf762c (last update)
